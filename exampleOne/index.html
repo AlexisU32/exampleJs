@@ -7,6 +7,29 @@
 </head>
 <body>
 
+    <h2 style="margin: 50px;">Formulario de Operaciones Aritmeticas</h2>
+
+    <form action="#" style="margin: 50px;">
+        <label for="nUno">Número uno</label>
+        <input type="text" name="nUno" id="nUno">
+
+        <label for="nDos">Número dos</label>
+        <input type="text" name="nDos" id="nDos">
+        <br>
+        <br>
+        <button type="button" onclick="sumar()">Sumar</button>
+        <button type="button" onclick="restar()">Restar</button>
+        <button type="button" onclick="multiplicar()">Multiplicar</button>
+        <button type="button" onclick="dividir()">Dividir</button>
+        <button type="button" onclick="borrar()">Borrar</button>
+
+        <p>
+          Resultado: 
+          <textarea id="result" cols="5" rows="1"></textarea>  
+        </p>
+
+    </form>
+
     
     <!--<script src="js/variables.js"></script>-->
     <script src="js/operArit.js"></script>
